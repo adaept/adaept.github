@@ -240,11 +240,13 @@ use the System library.
 
 >[System](https://github.com/systemjs/systemjs) is a third-party open-source library that adds ES6 module loading functionality to browsers. 
 
-Add the System.js dependency in the <head> tag of index.html
+Add the System.js dependency in the <head> tag of index.html and include a
+reference to favicon.ico as desired.
 
 ``` 
 <head>
   <title>Angular 2 Quickstart</title>
+  <link rel="icon" sizes="16x16 32x32" href="/favicon.ico?v=2">
   <script src="https://github.jspm.io/jmcriffey/bower-traceur-runtime@0.0.87/traceur-runtime.js"></script>
   <script src="https://jspm.io/system@0.16.js"></script>
   <script src="https://code.angularjs.org/2.0.0-alpha.36/angular2.dev.js"></script>
