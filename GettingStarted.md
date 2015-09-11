@@ -241,7 +241,7 @@ use the System library.
 >[System](https://github.com/systemjs/systemjs) is a third-party open-source library that adds ES6 module loading functionality to browsers. 
 
 Add the System.js dependency in the <head> tag of index.html and include a
-reference to favicon.ico as desired.
+reference to favicon.ico e.g. ![adaept](./pix/adaept.ico "adaept") as desired.
 
 ``` 
 <head>
@@ -321,4 +321,9 @@ A. Because Apple
 [discontinued](http://apple.stackexchange.com/questions/68836/where-can-i-download-safari-for-windows)
 it on Windows.
 
+## Publish to GitHub
+
+The project is published to [GitHub Pages](http://adaept.github.io).
+
+![Internet Explorer](./pix/HelloAliceIE_gh-pages.png "Internet Explorer")
 
