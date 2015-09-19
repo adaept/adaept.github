@@ -20,11 +20,11 @@ To run the code simply type the command `node hello.js`
 Windows PowerShell
 Copyright (C) 2014 Microsoft Corporation. All rights reserved.
 
-PS C:\ae\aetsang> node -v
+PS C:\ae\adaept.github.io> node -v
 v0.12.7
-PS C:\ae\aetsang> npm -v
+PS C:\ae\adaept.github.io> npm -v
 2.11.3
-PS C:\ae\aetsang> node hello.js
+PS C:\ae\adaept.github.io> node hello.js
 Node is installed!
 ```
 
@@ -118,11 +118,11 @@ Next, create two empty files, index.html and app.ts, both at the root
 of the project.
 
 ```
-C:\ae\aetsang> touch app.ts index.html
-C:\ae\aetsang> dir
+PS C:\ae\adaept.github.io> touch app.ts index.html
+PS C:\ae\adaept.github.io> dir
 
 
-    Directory: C:\ae\aetsang
+    Directory: PS C:\ae\adaept.github.io>
 
 
 Mode                LastWriteTime     Length Name
@@ -145,13 +145,13 @@ translate code to browser-compliant JavaScript. Use the TypeScript compiler in
 or configure the editor or IDE to do it.
 
 ``` 
-C:\ae\aetsang> npm install -g typescript@^1.6.0-beta
+PS C:\ae\adaept.github.io> npm install -g typescript@^1.6.0-beta
 C:\Users\peterennis\AppData\Roaming\npm\tsserver -> C:\Users\peterennis\AppData\Roaming\npm\node_modules\typescript\bin\
 tsserver
 C:\Users\peterennis\AppData\Roaming\npm\tsc -> C:\Users\peterennis\AppData\Roaming\npm\node_modules\typescript\bin\tsc
 typescript@1.6.0-beta C:\Users\peterennis\AppData\Roaming\npm\node_modules\typescript
 
-C:\ae\aetsang> tsc --watch -m commonjs -t es5 --experimentalDecorators --emitDecoratorMetadata app.ts
+PS C:\ae\adaept.github.io> tsc --watch -m commonjs -t es5 --experimentalDecorators --emitDecoratorMetadata app.ts
 message TS6042: Compilation complete. Watching for file changes.
 ```
 
@@ -266,7 +266,7 @@ Run a local HTTP server and view the index.html file.
 If needed then install an HTTP server with the following command:
 
 ```
-C:\ae\aetsang> npm install -g http-server
+PS C:\ae\adaept.github.io> npm install -g http-server
 C:\Users\peterennis\AppData\Roaming\npm\hs -> C:\Users\peterennis\AppData\Roaming\npm\node_modules\http-server\bin\http-
 server
 C:\Users\peterennis\AppData\Roaming\npm\http-server -> C:\Users\peterennis\AppData\Roaming\npm\node_modules\http-server\
@@ -292,7 +292,7 @@ http-server                 # Creates a server at localhost:8080
 ```
 
 ```
-C:\ae\aetsang> http-server
+PS C:\ae\adaept.github.io> http-server
 Starting up http-server, serving ./ on: http://0.0.0.0:8080
 Hit CTRL-C to stop the server
 ```
