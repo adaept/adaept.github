@@ -13,8 +13,10 @@ import {Component, View, bootstrap} from 'angular2/angular2';
 class MyAppComponent {
   name: string;
   constructor() {
-    this.name = 'Alice';
+    this.name = 'Alice Themes';
   }
 }
+
+// Ref: jdf-ngThemeSwitcher http://plnkr.co/edit/hNs7ps?p=preview
 
 bootstrap(MyAppComponent);
