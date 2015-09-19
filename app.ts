@@ -17,4 +17,6 @@ class MyAppComponent {
   }
 }
 
+// Ref: jdf-ngThemeSwitcher http://plnkr.co/edit/hNs7ps?p=preview
+
 bootstrap(MyAppComponent);
