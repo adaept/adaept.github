@@ -27,4 +27,5 @@ var MyAppComponent = (function () {
     ], MyAppComponent);
     return MyAppComponent;
 })();
+// Ref: jdf-ngThemeSwitcher http://plnkr.co/edit/hNs7ps?p=preview
 angular2_1.bootstrap(MyAppComponent);
