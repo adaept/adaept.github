@@ -12,11 +12,11 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 /// <reference path="typings/angular2/angular2.d.ts" />
 var angular2_1 = require('angular2/angular2');
 // Annotation section
-var MyAppComponent = (function () {
-    function MyAppComponent() {
+var MyAppThemes = (function () {
+    function MyAppThemes() {
         this.name = 'Alice Themes';
     }
-    MyAppComponent = __decorate([
+    MyAppThemes = __decorate([
         angular2_1.Component({
             selector: 'my-app'
         }),
@@ -24,8 +24,25 @@ var MyAppComponent = (function () {
             template: '<h1>Hello! <br/> {{ name }}</h1>'
         }), 
         __metadata('design:paramtypes', [])
-    ], MyAppComponent);
-    return MyAppComponent;
+    ], MyAppThemes);
+    return MyAppThemes;
+})();
+// Annotation section
+var MyAppBook = (function () {
+    function MyAppBook() {
+        this.name = 'My Book';
+    }
+    MyAppBook = __decorate([
+        angular2_1.Component({
+            selector: 'my-book'
+        }),
+        angular2_1.View({
+            template: '<h1>Hello! <br/> {{ name }}</h1>'
+        }), 
+        __metadata('design:paramtypes', [])
+    ], MyAppBook);
+    return MyAppBook;
 })();
 // Ref: jdf-ngThemeSwitcher http://plnkr.co/edit/hNs7ps?p=preview
-angular2_1.bootstrap(MyAppComponent);
+angular2_1.bootstrap(MyAppThemes);
+angular2_1.bootstrap(MyAppBook);

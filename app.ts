@@ -10,13 +10,30 @@ import {Component, View, bootstrap} from 'angular2/angular2';
 })
 
 // Component controller
-class MyAppComponent {
+class MyAppThemes {
   name: string;
   constructor() {
     this.name = 'Alice Themes';
   }
 }
 
+// Annotation section
+@Component({
+  selector: 'my-book'
+})
+@View({
+  template: '<h1>Hello! <br/> {{ name }}</h1>'
+})
+
+// Component controller
+class MyAppBook {
+  name: string;
+  constructor() {
+    this.name = 'My Book';
+  }
+}
+
 // Ref: jdf-ngThemeSwitcher http://plnkr.co/edit/hNs7ps?p=preview
 
-bootstrap(MyAppComponent);
+bootstrap(MyAppThemes);
+bootstrap(MyAppBook);
