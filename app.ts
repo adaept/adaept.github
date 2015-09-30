@@ -1,5 +1,5 @@
 /// <reference path="typings/angular2/angular2.d.ts" />
-import {Component, View, For, bootstrap} from 'angular2/angular2';
+import {Component, View, NgFor, bootstrap} from 'angular2/angular2';
 
 // Annotation section
 @Component({
