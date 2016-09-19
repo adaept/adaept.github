@@ -1,22 +1,28 @@
-<!-- index.html -->
 <html>
   <head>
-    <title>Angular 2 Quickstart with Theme Switcher</title>
+    <title>adaept</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
     <link rel="icon" sizes="16x16 32x32" href="/favicon.ico?v=2">
-    <script src="https://github.jspm.io/jmcriffey/bower-traceur-runtime@0.0.87/traceur-runtime.js"></script>
-    <script src="https://jspm.io/system@0.16.js"></script>
-    <script src="https://code.angularjs.org/2.0.0-alpha.36/angular2.dev.js"></script>
-    <!-- ui boostrap - for the dropdown button -->
-    <script data-require="ui-bootstrap@*" data-semver="0.11.0" src="http://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.11.0.min.js"></script>
-    <!-- ngStorage - for localStorage - to persist theme selection -->
-    <script src="https://cdnjs.com/libraries/ngStorage.min.js"></script>   
-    <!-- jdf-ngThemeSwitcher -->
-    <script src="scripts/jdf-ngThemeSwitcher.min.js"></script>
+
+    <!-- 1. Load libraries -->
+     <!-- Polyfill(s) for older browsers -->
+    <script src="node_modules/core-js/client/shim.min.js"></script>
+
+    <script src="node_modules/zone.js/dist/zone.js"></script>
+    <script src="node_modules/reflect-metadata/Reflect.js"></script>
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+
+    <!-- 2. Configure SystemJS -->
+    <script src="systemjs.config.js"></script>
+    <script>
+      System.import('app').catch(function(err){ console.error(err); });
+    </script>
   </head>
+
+  <!-- 3. Display the application -->
   <body>
-    <!-- The app components created in app.ts -->
-    <my-app></my-app>
-    <my-book></my-book>
-    <script>System.import('app');</script>
+    <my-app>Loading...</my-app>
   </body>
 </html>
